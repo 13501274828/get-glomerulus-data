@@ -13,7 +13,6 @@
 ├── pubmed.ipynb               # 获取 PubMed 中的图文数据 / Obtain data from PubMed
 ├── pubmed_central.ipynb       # 获取 PubMed Central 中的图文数据 / Obtain data from PubMed Central
 ├── paper_list.ipynb           # 对数据进行筛选和分类 / Classify and filter the data list
-├── svs_env/                   # 虚拟环境文件夹（已加入 .gitignore）/ Virtual environment (ignored)
 ├── requirements.txt           # 项目依赖包列表 / Dependency list
 ├── .gitignore                 # 忽略规则文件 / Git ignore rules
 └── README.md                  # 项目说明文件 / This documentation
