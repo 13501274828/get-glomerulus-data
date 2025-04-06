@@ -1,1 +1,16 @@
 .DS_Store
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+svs_env/
+venv/
+env/
+
+.ipynb_checkpoints/
+
+*.log
+*.env
+
+.vscode/
