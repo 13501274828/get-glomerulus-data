@@ -16,6 +16,18 @@
 ├── requirements.txt           # 项目依赖包列表 / Dependency list
 ├── .gitignore                 # 忽略规则文件 / Git ignore rules
 └── README.md                  # 项目说明文件 / This documentation
+```
+
+### For Step 1 in `pubmed.ipynb` and `pubmed_central.ipynb`, if you want to change the search keywords, you can modify the following line:
+
+```python
+url = f'https://openi.nlm.nih.gov/gridquery?q=glomerulus&m={m}&n={n}&it=xg'
+```
+
+For example：
+To use multiple keywords, replace the value after q=. For example, to search for "glomerulus glomeruli glomerular", update the line to: url = f'https://openi.nlm.nih.gov/gridquery?q=glomerulus%20glomeruli%20glomerular&m={m}&n={n}&it=xg'
+
+Note: Use %20 to separate multiple keywords in the query string. Each additional keyword must be separated by one %20.
 
 MIT License
 
